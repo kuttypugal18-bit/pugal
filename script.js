@@ -20,7 +20,7 @@ userInput.addEventListener('keydown', (e) => {
 });
 
 // Gemini API Configuration
-const GEMINI_API_KEY = "AIzaSyC12lQFuSo9xSwZWplL3HYlWU6NRY3Qg2w";
+const GEMINI_API_KEY = "AIzaSyA57NN0k_5GuXDtPBqXOjrRKqjJuZj5mjI";
 const MODEL = "gemini-2.5-flash"; // Manually set to v2.5 as requested
 
 async function getAIResponse(userText) {
@@ -134,7 +134,9 @@ document.querySelector('.action-btn[title="Clear History"]').addEventListener('c
             <span>Session Refreshed - ${new Date().toLocaleDateString()}</span>
         </div>
         <div class="message ai-message">
-                <p>History purged. <strong>checkbot 2.0</strong> is ready to begin anew.</p>
+            <div class="message-content">
+                <div class="ai-burst"></div>
+                <p>History purged. <strong>chatbot12.1</strong> parameters reset. How shall we begin anew?</p>
                 <span class="timestamp">Just now</span>
             </div>
         </div>
